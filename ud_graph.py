@@ -1,7 +1,10 @@
-# Course: 
-# Author: 
-# Assignment: 
-# Description:
+# Course: CS261 - Data Structures
+# Author: Ian Fonberg
+# Assignment: Graph Implementation (Portfolio Assignment)
+# Description: UndirectedGraph with implementations for add_vertex(),
+#              add_edge(), remove_edge(), remove_vertex(), get_vertices(),
+#              get_edges(), is_valid_path(), dfs(), bfs(),
+#              count_connected_components(), and has_cycle().
 
 from collections import deque
 
