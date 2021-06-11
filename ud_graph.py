@@ -182,10 +182,10 @@ class UndirectedGraph:
         reached. If the starting vertex is not in the graph, nothing happens.
 
         :param v_start: search start vertex
-        :param v_end: search end vertex or None
+        :param v_end: search end vertex or nothing
         :return: list of visited vertices
         """
-        seen = []  # User list to preserve visited order.
+        seen = []  # Use a list to preserve visited order.
         if v_start not in self.adj_list:
             # Start vertex not in graph.
             return seen
@@ -218,7 +218,7 @@ class UndirectedGraph:
         :param v_end: search end vertex
         :return: list of visited vertices
         """
-        seen = []  # Use list to preserve visited order.
+        seen = []  # Use a list to preserve visited order.
         if v_start not in self.adj_list:
             # Start vertex not in graph.
             return seen
